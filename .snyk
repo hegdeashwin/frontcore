@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - node-inspector > v8-debug > node-pre-gyp > hawk > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-debug > node-pre-gyp > hawk > hoek
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-profiler > node-pre-gyp > hawk > hoek
+    - node-inspector > v8-debug > node-pre-gyp > hawk > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-debug > node-pre-gyp > hawk > boom > hoek
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-profiler > node-pre-gyp > hawk > boom > hoek
+    - node-inspector > v8-debug > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-debug > node-pre-gyp > hawk > sntp > hoek
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-profiler > node-pre-gyp > hawk > sntp > hoek
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: node-inspector > v8-profiler > node-pre-gyp > request > hawk > hoek
+    - node-inspector > v8-debug > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          node-inspector > v8-debug > node-pre-gyp > hawk > cryptiles > boom >
+          hoek
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          node-inspector > v8-profiler > node-pre-gyp > hawk > cryptiles > boom
+          > hoek
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          node-inspector > v8-profiler > node-pre-gyp > request > hawk > boom >
+          hoek
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          node-inspector > v8-profiler > node-pre-gyp > request > hawk > sntp >
+          hoek
+    - node-inspector > v8-debug > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          node-inspector > v8-debug > node-pre-gyp > request > hawk > cryptiles
+          > boom > hoek
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T09:16:23.328Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          node-inspector > v8-profiler > node-pre-gyp > request > hawk >
+          cryptiles > boom > hoek
